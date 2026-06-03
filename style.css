@@ -104,3 +104,31 @@ nav a.active{
   font-weight:bold;
   min-height:28px;
 }
+
+.layout {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 760px) 220px;
+  gap: 20px;
+  max-width: 1240px;
+  margin: 30px auto;
+  padding: 0 16px;
+  align-items: start;
+}
+
+.ad-side {
+  min-height: 280px;
+}
+
+.quiz-box {
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  .layout {
+    display: block;
+  }
+
+  .ad-side {
+    margin: 20px 0;
+  }
+}
