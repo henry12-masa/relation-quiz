@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>戦国人間関係クイズ</title>
+<meta name="description" content="戦国武将の親子・主従・裏切り・政略結婚を当てる歴史クイズ">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1 id="title">戦国人間関係クイズ</h1>
+  <p id="desc">好きなクイズを選んで挑戦しよう</p>
+</header>
+
+<nav id="menu"></nav>
+
+<main class="quiz-box">
+  <div class="status">
+    <span id="count">読み込み中...</span>
+    <span id="score">スコア:0</span>
+  </div>
+
+  <div class="progress">
+    <div id="bar"></div>
+  </div>
+
+  <h2 id="question">問題を読み込んでいます...</h2>
+  <div id="choices"></div>
+  <p id="result"></p>
+</main>
+
+<script src="data/parent-child.js"></script>
+<script src="data/bad-relations.js"></script>
+<script src="data/marriage.js"></script>
+<script src="data/lord-vassal.js"></script>
+<script src="data/betrayed.js"></script>
+<script src="data/relatives.js"></script>
+<script src="data/nobunaga-target.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
